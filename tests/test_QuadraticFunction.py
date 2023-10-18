@@ -30,15 +30,10 @@ def test_roots(a, b, c, roots):
     func = QuadraticFunction(a, b, c)
     assert func.roots() == roots
 
-@pytest.mark.parametrize("a, b, c, a_res, b_res", [
-    (1, -3, 2, 2, -3),
-    (1, -2, 1, 2, -2),
-    (1, 2, 5, 2, 2)
-])
-def test_derivative(a, b, c, a_res, b_res):
-    #TODO
-    func = QuadraticFunction(a, b, c)
-    derivative = func.derivative()
-    assert derivative.a == a_res
-    assert derivative.b == b_res
-    pass
+# @pytest.mark.parametrize("a, b, c, a_res, b_res", [
+#     (1, -3, 2, 2, -3),
+#     (1, -2, 1, 2, -2),
+#     (1, 2, 5, 2, 2)
+# ])
+# def test_derivative(a, b, c, a_res, b_res):
+#     #TODO

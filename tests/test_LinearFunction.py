@@ -1,7 +1,7 @@
 from src.LinearFunction import LinearFunction
 import pytest
 
-def test_not_a_quadradic_function_exeception():
+def test_not_a_linear_function_exeception():
     with pytest.raises(Exception):
         func = LinearFunction(0, 1)
 

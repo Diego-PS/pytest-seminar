@@ -1,6 +1,6 @@
 import math
 from typing import List
-from LinearFunction import LinearFunction
+from .LinearFunction import LinearFunction
 
 class QuadraticFunction:
     def __init__(self, a: float, b: float, c: float):
